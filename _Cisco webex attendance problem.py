@@ -25,9 +25,9 @@ df1.head()
 # In[ ]:
 
 
-print('no. of name-duplicated',df2.Name.duplicated().sum())
+print('no. of name-duplicated',df1.Name.duplicated().sum())
 
-print('no. of Email-duplicated',df2.Email.duplicated().sum())
+print('no. of Email-duplicated',df1.Email.duplicated().sum())
 
 
 # In[ ]:
